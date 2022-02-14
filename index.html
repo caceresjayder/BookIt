@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookIt!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 600px)" /> 
+<link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 800px)" />
+</head>
+<body>
+<main class="container">
+    <header class="header">
+                <figure>
+                    <img id=logo src="./image/logo-bookit.png">
+                </figure>
+            <div class="header-top__buttoms">
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="./image/buscarw.png" alt="">
+                        </figure>
+                    </li>
+                        <figure>
+                            <img src="./image/hogarw.png" alt="">
+                        </figure>    
+                    <li>
+                        <figure>
+                            <img src="./image/usuariow.png" alt="">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+    </header>
+<!--//////////////Header//////////////-->
+    <div class="calltoaction">
+                <picture class="calltoaction-figure"> <source media="(min-width:800px)" srcset="./image/tinified/medium.jpg" />
+                    <img src="./image/tinified/small.jpg" alt="">
+                </picture>
+            <p class="calltoaction-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptatum similique hic, sed neque enim, molestias odit id delectus sit aliquam sunt cupiditate. Repellat quas asperiores facere non vitae labore?</br>
+                <button id="callbutton"> Signup Now!</button>
+            </p>
+    </div>
+<!--/////CalltoAction/////-->            
+    <div>   
+        <nav class="header-nav">
+                <ul class="header-nav__ul">
+                    <li>Flights </li>
+                    <li>Hotels</li>
+                    <li>Cars</li>
+                </ul>
+        </nav>
+    </div>
+<!--/////Navigator/////-->        
+    
+    <form class="form" action="">
+        <div>
+            <span>
+                From: </br>
+            </span>
+            <input list="Countries">
+            <span>
+            </br>Departure Date: </br>
+            </span>
+            <input type="date">
+        </div>
+        <div>
+            <span>
+                To:</br>
+            </span>
+            <input list="Countries">
+            <span>
+            </br>Arrival Date:</br>
+            </span>
+            <input type="date">
+        </div>
+        <div #id="last">
+            <span>
+            Passegenrs</br>
+            </span>
+            <select id="numbers" name="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <span></br></br></span>
+            <input id="search" type="submit" value="Search">
+        </div>
+    </form>
+<!--/////SearchForm/////-->
+    <div class="main-main">
+        <section class="main-section">
+            <div class="country1">
+                <figure>
+                    <img src="./image/tinified/italia-small.jpg">
+                </figure>
+                <p>
+                    Go to Italy for 20 Dolars!
+                </p>
+            </div>
+            <div class="country2">
+                <figure>
+                    <img src="./image/tinified/portugal-small.jpg">
+                </figure>
+                <p>
+                    Go to Portugal for 20 Dolars!
+                </p>
+            </div>
+            <div class="country3">
+                <figure>
+                    <img src="./image/tinified/madrid-small.jpg">
+                </figure>
+                <p>
+                    Go to Spain for 20 Dolars!
+                </p>
+            </div>
+            <div class="country4">
+                <figure>
+                    <img src="./image/tinified/canada-small.jpg">
+                </figure>
+                <p>
+                    Go to Canada for 20 Dolars!
+                </p>
+            </div>
+        </section>
+
+<!--////// Main Section//////////////-->
+
+        <article class="main-article">
+            <div class="card">
+                <h1>Prevention Actions Against COVID-19</h1>
+                <p></br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam illum nulla praesentium consectetur excepturi ab qui consequuntur</p>
+            </div>
+            <div class="card">
+                <h1>Know our services</h1>
+                <p></br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus debitis eveniet.
+                </p>
+            </div>
+        </article>
+    </div>
+   <!--///////////MainArticle///////////-->
+<footer class="footer">
+        <div class="footer-qr">
+            <figure>
+                <img src="./image/qr-codejhash.png">
+            </figure>
+        </div>
+        <div class="footer-information">
+            <span>Web Page Static Version with HTML and CSS.</br>
+            Created With 💚  </br>
+            Made by Jayder Caceres (JhashMe).
+            </span>
+        </div>
+        <div class="footer-social">
+            <ul class="footer-social__ul">
+                <li>
+                    <figure>
+                        <img src="./image/twitter.png">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./image/facebook.png">
+                        </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./image/instagram.png">
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </footer>    
+<!--///////////////Footer/////////////////////-->
+ 
+</main>
+</body>
+
+<!--//////////////End Of Body/////////-->
+
+
+  <datalist id="Countries">
+      <option value="Spain">
+      <option value="Portugal">
+      <option value="Canada">
+      <option value="Italy">
+      <option value="Usa">
+    </datalist> 
+</html>
